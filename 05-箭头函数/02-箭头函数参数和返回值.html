@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+  // 1 参数问题
+	// 1.1放入两个参数
+	const sum = (num1 , num2) =>{
+		return num1 + num2
+	}
+	// 1.2放入一个参数
+	const power = num =>{
+		return num * num
+	}
+
+	// 2
+	// 2.1 函数中有多行代码时
+	const obj = () =>{
+		console.log('hello world');
+		console.log('hi');
+	}
+	// 2.2 只有一行代码时的特殊写法
+	// const mul = (num1,num2) =>{
+	// 	return num1*num2
+	// }
+	const mul = (num1,num2) => num1 * num2
+	console.log(mul(2, 3));
+
+	// const demo = () =>{
+	// 	console.log('hello world')
+	// }
+	const demo = () => console.log('hello world')
+</script>
+</body>
+</html>
